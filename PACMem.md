@@ -1,3 +1,7 @@
+ASAN 
+1. AFL中用来感知漏洞的发生。
+2. root cause analysis.
+
 # PACMem: Enforcing Spatial and Temporal Memory Safety via ARM Pointer Authentication
 - [背景知识](#背景知识)
     - [ARM指针认证](#arm指针认证)
