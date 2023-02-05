@@ -2,6 +2,10 @@ ASAN
 1. AFL中用来感知漏洞的发生。
 2. root cause analysis.
 
+**Sanitizer**是一种工具，用于在运行时发现常见的软件错误，例如缓冲区溢出、使用未初始化的内存和使用已释放的内存。它通常通过检查内存访问来发现这些错误，并在发生错误时生成一个报告，以便程序员可以找出并修复问题。  
+**Fuzzer**是一种工具，用于对软件进行随机测试，以发现错误和漏洞。它通常通过生成随机输入并将其传递给软件来测试软件的行为。如果软件行为与预期不同，则可能存在错误或漏洞。  
+因此，两种工具的主要区别在于：Sanitizer在运行时发现常见的软件错误，而Fuzzer在运行时对软件进行随机测试。因此，Sanitizer和Fuzzer可以结合使用，以提高软件的安全性和可靠性。
+
 # PACMem: Enforcing Spatial and Temporal Memory Safety via ARM Pointer Authentication
 - [背景知识](#背景知识)
     - [ARM指针认证](#arm指针认证)
